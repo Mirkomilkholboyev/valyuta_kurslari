@@ -2,7 +2,7 @@ name: UZCE opening auction
 
 on:
   schedule:
-    - cron: '30 5 * * 1-5'   # 05:30 UTC = 10:30 Tashkent, weekdays (after the auction opens)
+    - cron: '50 5 * * 1-5'   # 05:50 UTC = 10:50 Tashkent, weekdays (after the auction posts, before 11:00)
   workflow_dispatch:
 
 permissions:
